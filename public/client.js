@@ -12,7 +12,7 @@ textarea.addEventListener("keyup", (txt) => {
     sendMessage(txt.target.value);
   }
 });
-
+// function to send message
 function sendMessage(message) {
   let msg = {
     name: name,
